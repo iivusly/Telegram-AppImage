@@ -17,7 +17,7 @@ jobs:
 
     - name: Download Packages
       run: |
-        apt update && apt install fuse
+        sudo apt update && sudo apt install -y fuse
 
     - name: Download Telegram
       env:
